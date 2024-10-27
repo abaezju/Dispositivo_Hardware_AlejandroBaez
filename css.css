@@ -1,0 +1,118 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image:url(./imagenes/fondo-lineas-dinamicas-estilo-papel_23-2149008629.avif); /* Fondo suave */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #345173;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: underline;
+}
+
+header p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #eff0f6;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+nav ul li a:hover {
+    color: #526ede;
+}
+
+/* Secciones */
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: rgb(190, 213, 248);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align:justify;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #233c58;
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+
+section p, section ul, section ol {
+    margin-bottom: 1rem;
+    
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+/* Beneficios y evolución */
+ul, ol {
+    margin-left: 2rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* Más información */
+section a {
+    color: #232703;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #f3f4f6;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
